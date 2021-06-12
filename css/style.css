@@ -1,0 +1,216 @@
+body,
+p,
+h1,
+ul,
+li,
+a {
+	padding: 0px;
+	margin: 0px;
+	color: #182033;
+	overflow: scroll;
+}
+
+p, a {
+	color: #182033;
+	overflow: scroll;
+}
+
+.header-menu a {
+	color: #ebfcff;
+}
+
+.header-logo {
+	color: #ebfcff;
+}
+
+a.active-menu {
+	color: #e1beae;
+}
+
+li {
+	list-style: none
+}
+
+body {
+	font-family: Times, "Times New Roman", Georgia, serif;
+	color: #182033;
+	background: #d1d0ce;
+	font-size: 1em;
+	line-height: 2em;
+	overflow-x: scroll
+}
+
+#site {
+	overflow-x: scroll !important
+}
+
+* {
+	box-sizing: border-box
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+a {
+	text-decoration: none
+}
+
+.btn {
+	background: #182033;
+	color: #acbabd;
+	font-size: 1.125em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border-radius: 4px;
+	text-align: auto;
+}
+
+header {
+	font-family: Times, "Times New Roman", Georgia, serif;;
+	padding: 80px;
+	background: #182033
+}
+
+header ul {
+	display: flex
+}
+
+header ul li {
+	padding: 0 20px
+}
+
+header ul li a {
+	font-size: 1.6em;
+	font-weight: bold
+}
+
+header ul li:hover a {
+	text-decoration: none;
+	color: #e1beae
+}
+
+.header-logo {
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: 0px;
+	position: relative
+}
+
+.header-logo:hover {
+	text-decoration: none;
+	color: #e1beae
+}
+
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #182033;
+	position: fixed;
+	padding: 20px
+}
+
+footer p {
+	margin-top: 0px;
+	color: #ebfcff
+}
+
+.social-networks {
+	display: flex;
+	flex-wrap: wrap
+}
+
+.social-networks a {
+	margin: 0 10px
+}
+
+.animation,
+.animation-2 {
+	opacity: 0
+}
+
+.index {
+	padding: 60px;
+	background: #acbabd;
+	height: 100vh
+	margin: auto;
+}
+
+.index img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.about {
+	padding: 60px;
+	background: #acbabd;
+	height: 100vh
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+	padding: 120px;
+	height: auto
+}
+
+.contact-form h2 {
+	margin: 0 auto;
+	padding: 1 0 20px 5
+}
+
+.contact-form input {
+	padding: 12px;
+	margin-bottom: 5px
+}
+
+.contact-form textarea {
+	padding: 80px;
+	margin: 0px;
+}
+
+.contact-form .btn {
+	margin-top: 10px;
+}
+
+
+div#container {
+    height: auto;
+    width: 300px;
+    border: 1px solid black;
+    margin: 4px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#aniField {
+  width: 400px;
+  height: 400px;
+  margin: 40px;
+  padding: 0px;
+  position: relative;
+  background: #182033;
+}
+#ani {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: white;
+}
+
